@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity"
+    android:background="#1d92d5">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageBall"
+        android:layout_x="20dp"
+        android:layout_y="5dp"
+        android:background="@drawable/bongden" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:layout_x="120dp"
+        android:layout_y="380dp"
+        android:background="#c77241"
+        android:textColor="#ffffff" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:id="@+id/btnShowPassword"
+        android:layout_x="105dp"
+        android:layout_y="310dp"
+        android:background="#c77241"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No account yet? Create one"
+        android:id="@+id/signUp"
+        android:layout_x="50dp"
+        android:layout_y="450dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPassword"
+        android:layout_x="30dp"
+        android:layout_y="200dp"
+        android:password="true"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editUserName"
+        android:layout_x="30dp"
+        android:layout_y="115dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:id="@+id/textView2"
+        android:layout_x="30dp"
+        android:layout_y="85dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/textView3"
+        android:layout_x="30dp"
+        android:layout_y="170dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:id="@+id/rememberMe"
+        android:layout_x="90dp"
+        android:layout_y="260dp"
+        android:checked="false"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:text="online soccer network"
+        android:id="@+id/textView"
+        android:layout_x="100dp"
+        android:layout_y="5dp"
+        android:textSize="30dp"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal"
+        android:textColor="#c3123b"
+        android:textStyle="bold|italic" />
+</AbsoluteLayout>
